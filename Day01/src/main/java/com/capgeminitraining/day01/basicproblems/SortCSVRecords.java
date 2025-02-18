@@ -32,7 +32,7 @@ public class SortCSVRecords {
                 return 0; // Ignore invalid values
             }
         });
-        // Print top 5 highest-paid employees
+        // Print top 5 highest-paid employee
         System.out.println("Top 5 Highest-Paid Employees:");
         System.out.println("---------------------------------------------------");
         System.out.printf("%-10s %-15s %-10s %-10s%n", "ID", "Name", "Dept", "Salary");

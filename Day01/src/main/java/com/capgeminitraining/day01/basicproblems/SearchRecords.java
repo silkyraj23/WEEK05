@@ -11,12 +11,9 @@ public class SearchRecords {
                     System.out.println("department of the "+ data[1] +" is "+ data[2]);
                     System.out.println("Salary of the "+ data[1] +" is "+ data[3]);
                 }
-
             }
-
         }catch (Exception e){
             System.out.println("Error File Not found");
         }
-
     }
 }

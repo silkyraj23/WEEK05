@@ -15,12 +15,11 @@ public class ReadStudentsDetails {
                 System.out.println("----------------------------------");
                 continue;
             }
-               for(int i=0;i<data.length;i++){
-                   System.out.print(data[i]+"\t\t");
-               }
-                System.out.println();
+            for(int i=0;i<data.length;i++) {
+                System.out.print(data[i] + "\t\t");
             }
-
+            System.out.println();
+            }
         } catch (Exception e) {
             System.out.println("Error reading the file: " + e.getMessage());
         }

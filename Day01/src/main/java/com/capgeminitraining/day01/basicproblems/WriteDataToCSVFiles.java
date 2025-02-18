@@ -1,8 +1,5 @@
 package com.capgeminitraining.day01.basicproblems;
-
 import com.opencsv.CSVWriter;
-
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 
 public class WriteDataToCSVFiles {

@@ -1,9 +1,9 @@
 package com.capgeminitraining.day01.basicproblems;
-
 import com.opencsv.CSVReader;
 import java.io.FileReader;
 public class ReadCSVFileAndCountRows {
     public static void main(String[] args) {
+        //storing the address of the file in the variable filepath
         String filePath="C:\\Users\\Shamiksha\\Desktop\\CG-Bridgelabz Training\\WEEK05\\Day01\\src\\main\\resources\\EmployeeDetails.csv";
         int noOfRows=0;
         try(CSVReader reader= new CSVReader(new FileReader(filePath))){
